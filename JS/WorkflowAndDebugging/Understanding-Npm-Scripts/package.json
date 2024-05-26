@@ -1,0 +1,13 @@
+{
+  "name": "understanding-npm-scripts",
+  "version": "1.0.0",
+  "description": "Complete Node.js Guide",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js", "_comment":"(_comment is how we can comment in JSON) We can 'start' because it is a special key word ",
+    "start-server":"node app.js", "_comment_":"Since 'start-server' is a custom command line, We have to use 'npm run start-server' to actually use the command."
+  },
+  "author": "Kelivn Judha",
+  "license": "ISC"
+}
