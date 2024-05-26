@@ -1,0 +1,19 @@
+{
+  "name": "installing-and-implementing-pug",
+  "version": "1.0.0",
+  "description": "Working with dynamic content and adding template engines",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Kelivn Judha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "pug": "^3.0.3"
+  }
+}
